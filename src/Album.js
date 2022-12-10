@@ -97,7 +97,7 @@ export default function Album() {
                     <Typography>
                       This is where you won't see an example of the proprietary signup 
                       page I wrote in react. It was a single page app with fancy 
-                      navigation and lots of state manaqgement and API calls. 
+                      navigation and lots of state management and API calls. 
                     </Typography>
                   </CardContent>
                   <CardActions>
