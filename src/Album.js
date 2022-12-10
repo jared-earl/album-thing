@@ -95,7 +95,9 @@ export default function Album() {
                       A sign up page!
                     </Typography>
                     <Typography>
-                      This is where you won't see an example of the proprietary signup page I wrote.
+                      This is where you won't see an example of the proprietary signup 
+                      page I wrote in react. It was a single page app with fancy 
+                      navigation and lots of state manaqgement and API calls. 
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -119,7 +121,8 @@ export default function Album() {
                       API Routes!
                     </Typography>
                     <Typography>
-                      This is where you won't see an example of the proprietary API routes I wrote in python.
+                      This is where you won't see an example of the proprietary 
+                      API routes I wrote in Python. 
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -140,10 +143,11 @@ export default function Album() {
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      A11Y Compliance
+                      A11Y Compliance!
                     </Typography>
                     <Typography>
-                      This is where you won't see my work on getting existing pages A11Y compliant.
+                      This is where you won't see my work on getting existing pages 
+                      compliant with accessibility standards.
                     </Typography>
                   </CardContent>
                   <CardActions>
