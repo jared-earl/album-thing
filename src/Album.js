@@ -110,10 +110,9 @@ export default function Album() {
                 >
                   <CardMedia
                     component="img"
-                    height="250px"
-                    image="./folder.png"
+                    height="250"
+                    image={require('./classified.jpg')}
                     alt="classified folder"
-                    
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
@@ -136,7 +135,7 @@ export default function Album() {
                   <CardMedia
                     component="img"
                     height="250"
-                    image={require('./folder.png')}
+                    image={require('./classified.jpg')}
                     alt="classified folder"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
