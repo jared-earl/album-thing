@@ -68,7 +68,8 @@ export default function Album() {
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Here's a nice album template lifted from the docs on mui.com. This is the exact 
-              spot I would talk about myself before showing off my work.
+              spot I would talk about myself before showing off my work. Alas, all
+              of my previous work is covered by an NDA... and I also don't have copies of it.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
