@@ -1,7 +1,5 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
-import Button from '@mui/material/Button';
-import CameraIcon from '@mui/icons-material/PhotoCamera';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -15,7 +13,6 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import classified from './classified.jpg';
 
 function Copyright() {
   return (
@@ -29,8 +26,6 @@ function Copyright() {
     </Typography>
   );
 }
-
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const theme = createTheme();
 
@@ -116,7 +111,7 @@ export default function Album() {
                   <CardMedia
                     component="img"
                     height="250"
-                    img={require('./classified.jpg')}
+                    img="./classified.jpg"
                     alt="classified folder"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
