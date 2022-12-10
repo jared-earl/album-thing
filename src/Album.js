@@ -66,14 +66,9 @@ export default function Album() {
               spot I would talk about myself before showing off my work. Alas, all
               of my previous work is covered by an NDA... and I also don't have copies of it.
             </Typography>
-            <Stack
-              sx={{ pt: 4 }}
-              direction="row"
-              spacing={2}
-              justifyContent="center"
-            >
-            
-            </Stack>
+            <Typography variant="h5" align="center">
+              <Link href="https://github.com/jared-earl/album-thing">https://github.com/jared-earl/album-thing</Link>
+            </Typography>
           </Container>
         </Box>
         <Container sx={{ py: 8 }} maxWidth="md">
